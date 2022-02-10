@@ -1,13 +1,32 @@
+/* Tailwind css global classes imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
+  background-color: #F6F6F6;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  min-height: 100vh;
+}
+
+.text-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.text-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+  font-family: 'Arapey', serif;
 }
