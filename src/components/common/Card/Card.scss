@@ -1,0 +1,65 @@
+.card-container {
+  .card {
+    &:hover {
+      .slide.slide-1 {
+        transform: translateY(0px);
+      }
+
+      .slide.slide-2 {
+        transform: translateY(0px);
+      }
+    }
+  }
+
+  img {
+    object-fit: contain;
+  }
+
+  .slide {
+    width: 320px;
+
+    height: 220px;
+
+    transition: 0.5s;
+  }
+
+  .slide-1 {
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+    position: relative;
+  }
+
+  .slide-2 {
+    position: relative;
+    transition: .8s;
+
+    box-sizing: border-box;
+
+    transform: translateY(-100px);
+
+    &::after {
+      content: "";
+
+      position: absolute;
+  
+      width: 30px;
+  
+      height: 4px;
+  
+      bottom: 15px;
+  
+      left: 50%;
+  
+      left: 50%;
+  
+      transform: translateX(-50%);
+  
+      background: #2c73df;
+    }
+  }
+}
+
