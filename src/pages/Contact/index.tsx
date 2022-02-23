@@ -11,7 +11,7 @@ export const Contact = () => {
           While this page is created...
         </p>
         <p className='mt-10 text-center text-lato text-2xl'>
-          Please send an email to salvador.gonzalez@salvagonzalez.com for any bussiness deals.
+          Please send an email to contact@salvadorgonmo.dev for any bussiness deals.
         </p>
         <p className='mt-10 text-center text-lato text-2xl'>
           Thank you!

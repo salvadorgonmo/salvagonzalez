@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className='bg-white p-6 flex justify-around shadow-2xl menu-wrapper'>
       <blockquote>
         <p className='text-lato'>
-          www.salvagonzalez.dev
+          www.salvadorgonmo.dev
         </p>
 
         <p className='text-lato'>
