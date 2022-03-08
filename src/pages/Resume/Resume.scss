@@ -1,0 +1,12 @@
+.resume-container {
+  max-width: 800px;
+  .separator {
+    height: 1px;
+    border: 1px solid gray;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

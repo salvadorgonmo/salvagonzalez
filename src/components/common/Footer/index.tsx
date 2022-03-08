@@ -9,7 +9,7 @@ export const Footer = () => {
         </p>
 
         <p className='text-lato'>
-          All rights reserved - 2021.
+          All rights reserved - 2022.
         </p>
       </blockquote>
     </div>

@@ -4,6 +4,7 @@ import { Portfolio } from '../../pages/Portfolio'
 import { MainLayout } from '../layout'
 import { Blog } from '../../pages/Blog'
 import { Contact } from '../../pages/Contact'
+import { Resume } from '../../pages/Resume'
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,6 +31,12 @@ export const RouterApp = () => {
         <Route path='/blog' exact>
           <MainLayout>
             <Blog />
+          </MainLayout>
+        </Route>
+
+        <Route path='/resume' exact>
+          <MainLayout>
+            <Resume />
           </MainLayout>
         </Route>
 

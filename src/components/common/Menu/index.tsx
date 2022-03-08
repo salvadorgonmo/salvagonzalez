@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { MenuItem } from './MenuItem'
-import { Paper } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { MenuIcon } from '@heroicons/react/outline'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -33,6 +32,10 @@ export const Menu = () => {
           <MenuItem
             url='/portfolio'
             itemName='Portfolio'
+            closeMobileMenu={handleToggleShowMenu} />
+          <MenuItem
+            url='/resume'
+            itemName='Resume'
             closeMobileMenu={handleToggleShowMenu} />
           <MenuItem
             url='/blog'
