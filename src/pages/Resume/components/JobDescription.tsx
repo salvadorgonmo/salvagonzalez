@@ -28,7 +28,7 @@ export const JobDescription = ({
           <h4 className='text-lato'>
             {positionName}
           </h4>
-          <p className='text-montserrat'>{jobDescription}</p>
+          <p className='text-montserrat text-sm'>{jobDescription}</p>
       </div>
     </div>
   )
