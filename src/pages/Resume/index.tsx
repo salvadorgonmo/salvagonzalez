@@ -31,7 +31,7 @@ const items = [
   {
     imageSrc: TSLogo,
     primary: 'TypeScript',
-    secondary: '4+ years.'
+    secondary: '2+ years.'
   },
   {
     imageSrc: ReactLogo,
