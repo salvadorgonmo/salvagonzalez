@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProfilePicJuan from '../../../assets/images/juan-itto.jpeg'
 import ProfileAudelio from '../../../assets/images/audelio-lujan.jpeg'
+import ProfileFelipe from '../../../assets/images/profileFelipe.jpeg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -74,6 +75,26 @@ export const SwiperCarousel = () => {
               </div>
             </figure>
         </SwiperSlide>
+        <SwiperSlide>
+          <figure className="md:flex bg-white rounded-xl p-8 md:p-0 dark:bg-slate-800">
+              <img className="w-24 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfileFelipe} alt="" width="384" />
+              <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+                <blockquote>
+                  <p className="text-lg paragraph font-medium text-2xl text-justify">
+                    “I met Salvador when he was starting his development career, i had the opportunity to mentor him during his first 6 months, and after that he became a Jr developer and started his great career growth that hasn't stop yet. His learning skills are really good, one of the coworkers with best communication and supporting skills.”
+                  </p>
+                </blockquote>
+                <figcaption className="font-medium">
+                  <div className="text-blue-700 text-lato text-2xl">
+                    Felipe de Jesus Nevarez Perez
+                  </div>
+                  <div className="text-lato  dark:text-slate-500">
+                    Engineering Manager at Tango
+                  </div>
+                </figcaption>
+              </div>
+            </figure>
+        </SwiperSlide>  
       </Swiper>
     </>
   );
