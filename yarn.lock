@@ -2009,9 +2009,7 @@
   "version" "1.3.2"
 
 "@types/node@*", "@types/node@^12.0.0":
-  "integrity" "sha512-BzcaRsnFuznzOItW1WpQrDHM7plAa7GIDMZ6b5pnMbkqEtM/6WCOhvZar39oeMQP79gwvFUWjjptE7/KGcNqFg=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-12.20.47.tgz"
-  "version" "12.20.47"
+  "version" "12.20.46"
 
 "@types/parse-json@^4.0.0":
   "integrity" "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA=="
@@ -4701,11 +4699,6 @@
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
-
-"fsevents@^2.3.2", "fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -7708,8 +7701,8 @@
     "fsevents" "^2.3.2"
 
 "react-to-print@^2.14.4":
-  "integrity" "sha512-lpKKsmkZz1m4G1mBbJtK5qATfYzJRrgLgJ3m0LyF17Ojq22ifxw2AIgH3BROpFDNj0c057Q1dDP53kDIPLVtmw=="
-  "resolved" "https://registry.npmjs.org/react-to-print/-/react-to-print-2.14.4.tgz"
+  "integrity" "sha1-nROQs/GS/lXozK3Ke9oe20Cf0b8="
+  "resolved" "https://artylab.expedia.biz/api/npm/public-npm-virtual/react-to-print/-/react-to-print-2.14.4.tgz"
   "version" "2.14.4"
   dependencies:
     "prop-types" "^15.8.1"

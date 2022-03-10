@@ -34,9 +34,9 @@ export const SwiperCarousel = () => {
         className="mySwiper p-10 card-width-carousel"
       >
         <SwiperSlide>
-          <figure className="md:flex bg-white rounded-xl p-8 md:p-0 dark:bg-slate-800">
-            <img className="w-20 h-20 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfilePicJuan} alt="" width="384" />
-            <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <figure className="md:flex bg-white rounded-xl p-8 md:p-0">
+            <img className="w-28 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfilePicJuan} alt="" width="384" />
+            <div className="pt-6 md:p-8 bg-white text-center md:text-left space-y-4">
               <blockquote>
                 <p className="text-lg paragraph font-medium text-2xl text-justify">
                   “I had the privilege to co-work with Salvador when he still was an intern, we were working on several different projects 
@@ -55,13 +55,12 @@ export const SwiperCarousel = () => {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="md:flex bg-white rounded-xl p-8 md:p-0 dark:bg-slate-800">
-              <img className="w-24 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfileAudelio} alt="" width="384" />
-              <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <figure className="md:flex  rounded-xl p-8 md:p-0">
+              <img className="w-28 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfileAudelio} alt="" width="384" />
+              <div className="pt-6 bg-white md:p-8 text-center md:text-left space-y-4">
                 <blockquote>
                   <p className="text-lg paragraph font-medium text-2xl text-justify">
-                    “I had the privilege to co-work with Salvador when he still was an intern, we were working on several different projects 
-                    with many challenges and he always was defiant to himself, learning, asking and working on new things, of course always giving the best from himself, really a valuable team member.”
+                    “I have the privilege to see how Salvador has been growing since his first job as a JR. He is a really good listener and a fast learner, even though now we don't work together I will love to do it again and I am happy to see that he continues growing to the big developer he is.”
                   </p>
                 </blockquote>
                 <figcaption className="font-medium">

@@ -31,7 +31,7 @@ const items = [
   {
     imageSrc: TSLogo,
     primary: 'TypeScript',
-    secondary: '4+ years.'
+    secondary: '2+ years.'
   },
   {
     imageSrc: ReactLogo,
@@ -85,7 +85,7 @@ class ResumeComponent extends Component  {
                 Guadalajara, Jalisco. México.
               </p>
               <p className='text-lato'>
-                Email: contact@salvadorgonmo.dev
+                Email: salvadorgonmo@gmail.com
               </p>
               <div className='mr-4 flex items-center'>
                 <a rel='noreferrer' target='_blank' href='https://github.com/salvadorgonmo'>
