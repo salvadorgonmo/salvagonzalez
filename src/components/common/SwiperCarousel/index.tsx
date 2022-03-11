@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import ProfilePicJuan from '../../../assets/images/juan-itto.jpeg'
 import ProfileAudelio from '../../../assets/images/audelio-lujan.jpeg'
 import ProfileFelipe from '../../../assets/images/profileFelipe.jpeg'
+import ProfileOmar from '../../../assets/images/omar-ramirez.jpeg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -93,7 +94,27 @@ export const SwiperCarousel = () => {
                 </figcaption>
               </div>
             </figure>
-        </SwiperSlide>  
+        </SwiperSlide>
+        <SwiperSlide>
+          <figure className="md:flex  rounded-xl p-8 md:p-0">
+              <img className="w-28 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ProfileOmar} alt="" width="384" />
+              <div className="pt-6 bg-white md:p-8 text-center md:text-left space-y-4">
+                <blockquote>
+                  <p className="text-lg paragraph font-medium text-2xl text-justify">
+                    “Salvador is an amazing developer, we worked together on very challenging projects for more than a year. He not only took every challenge with a smile he also delivered results he was interested to learn more about other technologies. I can highly recommend Salvador, I am sure he will become one key player for your team.”
+                  </p>
+                </blockquote>
+                <figcaption className="font-medium">
+                  <div className="text-blue-700 text-lato text-2xl">
+                    Omar Ramírez Aguilar.
+                  </div>
+                  <div className="text-lato  dark:text-slate-500">
+                    Tech Lead at Unosquare
+                  </div>
+                </figcaption>
+              </div>
+            </figure>
+        </SwiperSlide>
       </Swiper>
     </>
   );
