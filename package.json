@@ -29,6 +29,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "react-scripts build && aws s3 rm s3://salvadorgonmo-dev --recursive && aws s3 cp ./build s3://salvadorgonmo-dev --recursive --acl public-read",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

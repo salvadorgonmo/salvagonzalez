@@ -16,7 +16,7 @@ export const JobDescription = ({
   jobDescription
 }: JobDescriptionProps) => {
   return (
-    <div className='grid grid-cols-4 mt-4'>
+    <div className='grid grid-cols-4 mb-14 mt-6'>
       <div className='text-montserrat'>
         <p className='text-md '>{dateRange}</p>
         <p className='text-xs'>{locationText}</p>
@@ -25,10 +25,10 @@ export const JobDescription = ({
           <h3 className='text-lato text-xl'>
             {companyName}
           </h3>
-          <h4 className='text-lato'>
+          <h4 className='text-lato text-lg'>
             {positionName}
           </h4>
-          <p className='text-montserrat text-sm'>{jobDescription}</p>
+          <p className='text-montserrat text-md'>{jobDescription}</p>
       </div>
     </div>
   )

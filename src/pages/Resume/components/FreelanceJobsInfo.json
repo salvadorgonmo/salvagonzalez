@@ -1,0 +1,60 @@
+{
+    "jobs": [
+        {
+            "dateRange": "July 2021 - Present",
+            "locationText": "Guadalajara, Jalisco. México",
+            "companyName": "Virgilio.",
+            "positionName": "Technical Lead Partner",
+            "jobDescription": [
+                "'Never recruit the same with Virgilio' is the Slogan of Virgilio, a tool for helping recruiters to manage their recruitment process.",
+                "From providing access to create job openings, to enable the ability to manage creation of plenty different candidates for one or multiple",
+                "job openings. I am in charge of developing either Frontend and backend APIs with React and Hapi.js respectively, as well as for mentoring and leading",
+                "our other partner developers at Virgilio."
+            ]
+        },
+        {
+            "dateRange": "October 2021 - July 2022",
+            "locationText": "Guadalajara, Jalisco. México",
+            "companyName": "Salvum MX",
+            "positionName": "Senior Frontend Developer",
+            "jobDescription": [
+                "Salvum MX is an application to offer savings proposals to employees of several companies, and then earn profits depending of selected saving memberships.",
+                "It was build with React as the Frontend side and with Java and Sails JS in the back. It has the capability to select savings memberships as well as request loans.",
+                "Redux is the main state manager in the frontent side."
+            ]
+        },
+        {
+            "dateRange": "July 2021 - November 2021",
+            "locationText": "Guadalajara, Jalisco. México",
+            "companyName": "Clan del Emprendedor.",
+            "positionName": "Senior Frontend Developer",
+            "jobDescription": [
+                "Clan Del Emprendedor is an admin application to help users and admins of the product manage their",
+                "accounts and request changes across the money they want to invest for trading. It is build with React and Ruby."
+            ]
+        },
+        {
+            "dateRange": "November, 2020 - February, 2021",
+            "locationText": "Guadalajara, Jalisco. México",
+            "companyName": "Trendzyla.",
+            "positionName": "Senior FullStack Software Developer",
+            "jobDescription": [
+                "Trendzyla is a Mexican social network that offers the early published news about different topics,",
+                "based on artists, music, posts as well as for technology items that are in trends. I joined the team to help build the whole application from scratch,",
+                "which involved build the architecture for the UI and for the backend with the help of the team. We used React and Express with node. "
+            ]
+        },
+        {
+            "dateRange": "January, 2018 - August, 2018",
+            "locationText": "Guadalajara, Jalisco. México",
+            "companyName": "HealthTree Foundation.",
+            "positionName": "Junior Frontend Developer.",
+            "jobDescription": [
+                "HealthTree Foundation is a Foundation company that helps accelerate the research of the Myloma disease as well as for get a cure.",
+                "I joined the company to help build new components in the UI as well as for migrating old existing components to a brand new shape with functional components.",
+                "The code quality was not good, there were too many bad practices around the application so we needed to re-build almost",
+                "the whole application from scratch."
+            ]
+        }
+    ]
+}

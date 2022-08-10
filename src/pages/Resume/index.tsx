@@ -22,6 +22,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LanguageIcon from '@mui/icons-material/Language';
 import { useReactToPrint } from 'react-to-print';
 
+import Jobs from './components/JobDescriptionInfo.json'
+import FreelanceJobs from './components/FreelanceJobsInfo.json'
+
 const items = [
   {
     imageSrc: JSLogo,
@@ -112,9 +115,9 @@ class ResumeComponent extends Component  {
           </section>
           <div className='w-full mt-6 separator'/>
           <section>
-            <div id='description-card' className='mt-6 border-2 text-sm rounded-lg p-3 text-montserrat'>
+            <p id='description-card' className='mt-6 border-2 text-sm text-slate-900 rounded-lg p-3 text-lato'>
               I am a Software Development Engineer who loves to build web applications using JavaScript technologies, but also loves to learn new frameworks from different languages. I like to learn how to solve new algorithm problems by either watch a tutorial on a good platform, or reading algorithm problems and solutions in a book. 
-            </div>
+            </p>
           </section>
         <div className='w-full mt-6 separator'/>
         <section className='flex flex-col mt-6'>
@@ -124,25 +127,15 @@ class ResumeComponent extends Component  {
               EXPERIENCE
             </h2>
           </div>
-          <JobDescription 
-            dateRange='Nov. 2019 - Present'
-            locationText='Guadalajara, Jalisco. México' 
-            companyName='Luxoft - DXC'
-            positionName='Software Development Engineer II at Expedia'
-            jobDescription='I’ve been being working with Luxoft for a while, within a great project Expedia.
-            The initial work was a migration for an old stack with JSP as the main core of the
-            Expedia pages, to a new progressive web application with React, TypeScript and
-            Java/Kotlin. Here I’ve contributed in creation of microservices using Kotlin, and
-            crafting the new homepage UI across different Expedia sites in the world.
-            Worked with a11y, localization and best code practices.
-            Recognized as a Core Approver member team for the main domain application
-            across different Expedia brands.'/>
-          <JobDescription 
-            dateRange='Sept. 2017 – Nov. 2019'
-            locationText='Guadalajara, Jalisco. México' 
-            companyName='Unosquare'
-            positionName='Intern - Software Development Engineer I at Foundation Medicine Inc.'
-            jobDescription='I started my professional career with Unosquare. I joined the company as an Intern to start developing software for helping physicians and patients defeat cancer diseases in Foundation Medicine Inc. When the internship has finished, Unosquare and Foundation Medicine offered me a full time employee position to continue working with them. I was involved developing web and mobile application focused on JavaScript technologies such as Express.js, React and React Native.'/>
+          {Jobs.jobs.map(job => (
+            <JobDescription
+              dateRange={job.dateRange}
+              locationText={job.locationText}
+              companyName={job.companyName}
+              positionName={job.positionName}
+              jobDescription={job.jobDescription.join('\n')} />
+          ))}
+
         </section>
         <div className='w-full mt-6 separator'/>
         <section className='flex flex-col mt-14 mb-6'>
@@ -165,7 +158,7 @@ class ResumeComponent extends Component  {
           </div>
         </section>
         <div className='w-full mt-14 separator'/>
-        <section className='flex flex-col mt-6'>
+        <section className='flex flex-col '>
           <div className='flex'>
             <LightBulbIcon className='text-blue-600 w-6 h-6 mr-4 mt-1'/>
             <h2 className='text-lato text-blue-600 text-xl mt-1'>
@@ -191,34 +184,22 @@ class ResumeComponent extends Component  {
             </List>
           </div>
         </section>
-        <div className='w-full mt-6 separator'/>
+        <div className='w-full mt-20 separator'/>
         <section className='flex flex-col mt-6'>
           <div className='flex'>
             <CollectionIcon className='text-blue-600 w-6 h-6 mr-4 mt-1'/>
-            <h2 className='text-lato text-blue-600 text-xl mt-1'>
+            <h2 className='text-lato text-blue-600 text-xl'>
               FREELANCE PROJECTS
             </h2>
           </div>
-          <JobDescription 
-            dateRange='July 2021 - November 2021'
-            locationText='Guadalajara, Jalisco. México' 
-            companyName='Clan del Emprendedor.'
-            positionName='Frontend Developer'
-            jobDescription='Clan Del Emprendedor is an admin application to help users and admins of the product manage their accounts and request changes across the money they want to invest for trading. It is build with React and Ruby.'/>
-       
-          <JobDescription 
-            dateRange='November, 2020 - February, 2021'
-            locationText='Guadalajara, Jalisco. México' 
-            companyName='Trendzyla.'
-            positionName='FullStack Software Developer'
-            jobDescription='Trendzyla is a Mexican social network that offers the early published news about different topics, based on artists, music, posts as well as for technology items that are in trends. I joined the team to help build the whole application from scratch, which involved build the architecture for the UI and for the backend with the help of the team. We used React and Express with node.'/>
-       
-          <JobDescription 
-            dateRange='January, 2018 - August, 2018'
-            locationText='Guadalajara, Jalisco. México' 
-            companyName='HealthTree Foundation.'
-            positionName='Junior Frontend Developer.'
-            jobDescription='HealthTree Foundation is a Foundation company that helps accelerate the research of the Myloma disease as well as for get a cure. I joined the company to help build new components in the UI as well as for migrating old existing components to a brand new shape with functional components. The code quality was not good, there were too many bad practices around the application so we needed to re-build almost the whole application from scratch to use good practices such as the DRY (do not repeat yourself) principle as well as for reusability of components.'/>
+          {FreelanceJobs.jobs.map(job => (
+            <JobDescription
+              dateRange={job.dateRange}
+              locationText={job.locationText}
+              companyName={job.companyName}
+              positionName={job.positionName}
+              jobDescription={job.jobDescription.join('\n')} />
+          ))}
          </section>
         </section>
       </div>

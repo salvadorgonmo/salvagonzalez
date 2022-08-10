@@ -1,6 +1,9 @@
 import React from 'react'
 
 export const Footer = () => {
+  // const getSeal = async () => {
+  //   const url = await 
+  // }
   return (
     <div className='bg-white p-6 flex justify-around shadow-2xl menu-wrapper'>
       <blockquote>
