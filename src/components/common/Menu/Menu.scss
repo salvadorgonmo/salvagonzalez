@@ -5,11 +5,11 @@
   z-index: 10;
 
   .paragraph {
-    font-family: 'Arapey', serif;
+    font-family: "Arapey", serif;
   }
-  
-  .transition-hover { 
-    transition: .2s;
+
+  .transition-hover {
+    transition: 0.2s;
   }
 
   @media only screen and (max-width: 640px) {
@@ -24,12 +24,12 @@
       animation-name: slidein-menu;
     }
   }
-  
+
   @keyframes slidein-menu {
     from {
       margin-left: -100%;
     }
-  
+
     to {
       margin-left: 0%;
     }
@@ -39,10 +39,9 @@
     from {
       margin-left: 0%;
     }
-  
+
     to {
       margin-left: -100%;
     }
   }
 }
-

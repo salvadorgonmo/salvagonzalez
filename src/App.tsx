@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { RouterApp } from './components/router'
+import * as React from "react";
+import { RouterApp } from "./components/router";
 
 function App() {
   return (

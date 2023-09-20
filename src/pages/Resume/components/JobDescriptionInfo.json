@@ -1,46 +1,123 @@
 {
-    "jobs": [
-        {
-            "dateRange": "April 2022 - present",
-            "locationText": "Guadalajara, Jalisco. México",
-            "companyName": "NTD Software.",
-            "positionName": "Senior Frontend Developer at Neurothink Inc.",
-            "jobDescription": [
-                "Neurothink is a Network resource provider startup for Machine Learning and AI by providing",
-                "industry-leading compute and virtualization resources in a secure, customizable and automated workflow.",
-                "I am in charge of all the Frontend application development phase for delivering to the final user proper access to",
-                "Machine Learning virtualization CPUs and GPUs with a variety of different memberships stating from the basic amount",
-                "to advanced ones for more robust projets. Using React and Redux for storage, and Django with Python 3 in the backend."
-            ]
-        },
-        {
-            "dateRange": "Nov. 2019 - April 2022",
-            "locationText": "Guadalajara, Jalisco. México",
-            "companyName": "Luxoft - DXC",
-            "positionName": "Software Development Engineer II at Expedia",
-            "jobDescription": [
-                "I have been being working with Luxoft for a while, within a great project Expedia.",
-                "The initial work was a migration for an old stack with JSP as the main core of the",
-                "Expedia pages, to a new progressive web application with React, TypeScript and",
-                "Java/Kotlin. Here I haveve contributed in creation of microservices using Kotlin, and",
-                "crafting the new homepage UI across different Expedia sites in the world",
-                "Worked with a11y, localization and best code practices.",
-                "Recognized as a Core Approver member team for the main domain application",
-                "across different Expedia brands."
-            ]
-        },
-        {
-            "dateRange": "Sept. 2017 – Nov. 2019",
-            "locationText": "Guadalajara, Jalisco. México",
-            "companyName": "Unosquare",
-            "positionName": "Intern - Software Development Engineer I at Foundation Medicine Inc.",
-            "jobDescription": [
-                "I started my professional career with Unosquare. I joined the company as an Intern to start developing software for helping",
-                "physicians and patients defeat cancer diseases in Foundation Medicine Inc. When the internship has finished,",
-                "Unosquare and Foundation Medicine offered me a full time employee position to continue working with them. ",
-                "I was involved developing web and mobile application focused on JavaScript technologies such as Express.js,",
-                "React and React Native."
-            ]
-        }
-    ]
+  "jobs": [
+    {
+      "dateRange": "September 2022 - Present",
+      "locationText": "Guadalajara, Jalisco. México",
+      "companyName": "Eden Medical",
+      "positionName": "Senior Frontend Engineer",
+      "jobDescription": [
+        "Responsible for refactoring an application that was created on Apache Camel to Spring Boot",
+        "as well as migrated another of legacy APIs.",
+        "I also contributed upgrading java's version from 10 to 20 legacy APIs to fix",
+        "some vulnerabilities on the old java version, starting from local and development environments",
+        "to releasing them to production by using a newer Open JDK version that fixed those vulnerabilities already."
+      ],
+      "responsibilities": [
+        "Maintainer and feature crafter of 3 UI repositories; DICOM Viewer, Admin system and Design System.",
+        "Create technical designs for new features and troubleshoot complex bugs",
+        "Mentor new coworkers on our Management site.",
+        "Deliver efficient and quality code with best practices on time."
+      ],
+      "achievements": [
+        "Created the first AI powered tool focused on health care to get conclusions of patient's studies.",
+        "Created an Agenda product for studies booking in our Management system, that helped a lot of our users easily manage their appointemns with their patients (Similar to Google Calendar).",
+        "A big list of UI components crafted in Eden's UI Design System."
+      ],
+      "stack": [
+        "JavaScript",
+        "GraphQL",
+        "TypeScript",
+        "React",
+        "Git",
+        "Tailwind",
+        "Zustand "
+      ]
+    },
+    {
+      "dateRange": "Nov. 2019 - April 2022",
+      "locationText": "Guadalajara, Jalisco. México",
+      "companyName": "Luxoft (Consultancy)",
+      "positionName": "SDE - Expedia",
+      "jobDescription": [
+        "I have been being working with Luxoft for a while, within a great project Expedia.",
+        "The initial work was a migration for an old stack with JSP as the main core of the",
+        "Expedia pages, to a new progressive web application with React, TypeScript and",
+        "Java/Kotlin. Here I haveve contributed in creation of microservices using Kotlin, and",
+        "crafting the new homepage UI across different Expedia sites in the world",
+        "Worked with a11y, localization and best code practices.",
+        "Recognized as a Core Approver member team for the main domain application",
+        "across different Expedia brands."
+      ],
+      "responsibilities": [
+        "Migrate Homepage at Expedia in all POS from an old stack with JSP to a new PWA powered with React.",
+        "Member of the core maintainers of the Homepage site at Expedia and all its POS.",
+        "Reviewer of the Core Repository at Expedia entry page, which commonly received 15+ PR review requests per day.",
+        "Translations for all new texts for new features with the Expedia's private translator systems.",
+        "Maintainer of the main UI Toolkit Design System that powers all new UI expedia brands."
+      ],
+      "achievements": [
+        "Recognized at one of the Core Approvers team at the PWA and one of the Admins for that main repository.",
+        "Participated on Expedia's mentoring program to mentor 2 Software engineers. Both got offers to work at Expedia full time",
+        "Crafter a module of Recent Searches for logged and unlogged users at Expedia brand."
+      ],
+      "stack": [
+        "JavaScript",
+        "GraphQL",
+        "TypeScript",
+        "React",
+        "Git",
+        "TailwindCSS",
+        "Zustand "
+      ]
+    },
+    {
+      "dateRange": "April 2022 - September 2022",
+      "locationText": "Guadalajara, Jalisco. México",
+      "companyName": "NTD Software (Consultancy)",
+      "positionName": "Senior Frontend Developer - Neurothink Inc.",
+      "jobDescription": [
+        "Neurothink is a Network resource provider startup for Machine Learning and AI by providing",
+        "industry-leading compute and virtualization resources in a secure, customizable and automated workflow.",
+        "I am in charge of all the Frontend application development phase for delivering to the final user proper access to",
+        "Machine Learning virtualization CPUs and GPUs with a variety of different memberships stating from the basic amount",
+        "to advanced ones for more robust projets. Using React and Redux for storage, and Django with Python 3 in the backend."
+      ],
+      "responsibilities": [
+        "Leading Frontend application which has integrations with Tensorflow and JupiterLab.",
+        "Refactor old components with a new enhanced designs.",
+        "Integrates payment memberships with Stripe and maintain integration.",
+        "Releases to production and its different testing environments.",
+        "Deliver high quality code with best practices.",
+        "Migrated from an old React version to the newest incrementally."
+      ],
+      "achievements": [
+        "Enabled payments on Neurothink with a successfull integration with Stripe.",
+        "Refactored old UI to the enhanced one on time for demo with investors."
+      ],
+      "stack": ["JavaScript", "TypeScript", "React", "Git", "Redux", "Zustand "]
+    },
+    {
+      "dateRange": "Sept. 2017 – Nov. 2019",
+      "locationText": "Guadalajara, Jalisco. México",
+      "companyName": "Unosquare (Consultancy)",
+      "positionName": "Intern - SDE. Foundation Medicine Inc.",
+      "jobDescription": [
+        "I started my professional career with Unosquare. I joined the company as an Intern to start developing software for helping",
+        "physicians and patients defeat cancer diseases in Foundation Medicine Inc. When the internship has finished,",
+        "Unosquare and Foundation Medicine offered me a full time employee position to continue working with them. ",
+        "I was involved developing web and mobile application focused on JavaScript technologies such as Express.js,",
+        "React and React Native."
+      ],
+      "responsibilities": [
+        "Deliver one Parking slots mobile app for Unosquare's headquarters in GDL within the first 6 months (Intership's duration)",
+        "Maintainer of FMI's reporting web site and mobile application that processes those reports.",
+        "Peer reviews on pull requests on other team members"
+      ],
+      "achievements": [
+        "Deliver parking slots app project successfully to Unosquare GDL offices.",
+        "Recognized as the best Intern member that brought great results to the Unosquare's Internship program (client very happy with results)."
+      ],
+      "stack": ["JavaScript", "Node", "React", "Git"]
+    }
+  ]
 }
