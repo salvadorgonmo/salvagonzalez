@@ -20,7 +20,7 @@
       ],
       "achievements": [
         "Created the first AI powered tool focused on health care to get conclusions of patient's studies.",
-        "Created an Agenda product for studies booking in our Management system, that helped a lot of our users easily manage their appointemns with their patients (Similar to Google Calendar).",
+        "Created an Agenda product for studies booking in our Management system, that helped a lot of our users easily manage their appointemnts with their patients (Similar to Google Calendar).",
         "A big list of UI components crafted in Eden's UI Design System."
       ],
       "stack": [
@@ -49,16 +49,15 @@
         "across different Expedia brands."
       ],
       "responsibilities": [
-        "Migrate Homepage at Expedia in all POS from an old stack with JSP to a new PWA powered with React.",
-        "Member of the core maintainers of the Homepage site at Expedia and all its POS.",
-        "Reviewer of the Core Repository at Expedia entry page, which commonly received 15+ PR review requests per day.",
-        "Translations for all new texts for new features with the Expedia's private translator systems.",
-        "Maintainer of the main UI Toolkit Design System that powers all new UI expedia brands."
+        "Undertake the migration of Expedia's homepage, transitioning it from an outdated JSP-based stack to React.",
+        "Maintain Expedia's homepage web site such as integrating new features or fixing current issues.",
+        "An evaluator responsible for reviewing the Core Repository entry page at Expedia.",
+        "Generate translations for the different 30+ supported languages.",
+        "Curator of the primary UI Toolkit Design System, which serves as the foundational framework for all new user interface implementations across Expedia's diverse brand portfolio."
       ],
       "achievements": [
-        "Recognized at one of the Core Approvers team at the PWA and one of the Admins for that main repository.",
-        "Participated on Expedia's mentoring program to mentor 2 Software engineers. Both got offers to work at Expedia full time",
-        "Crafter a module of Recent Searches for logged and unlogged users at Expedia brand."
+        "Distinguished as a member of the Core Approvers team within the Progressive Web Application (PWA) division, and appointed as an administrator for the primary repository in that capacity.",
+        "Engaged in Expedia's mentoring program, providing guidance and mentorship to two software engineers, both of whom subsequently received offers for full-time employment with Expedia."
       ],
       "stack": [
         "JavaScript",
@@ -109,13 +108,13 @@
         "React and React Native."
       ],
       "responsibilities": [
-        "Deliver one Parking slots mobile app for Unosquare's headquarters in GDL within the first 6 months (Intership's duration)",
+        "Develop and deliver a mobile application for parking slot management at Unosquare's headquarters in Guadalajara (GDL) within the initial 6 months of the internship's duration.",
         "Maintainer of FMI's reporting web site and mobile application that processes those reports.",
         "Peer reviews on pull requests on other team members"
       ],
       "achievements": [
         "Deliver parking slots app project successfully to Unosquare GDL offices.",
-        "Recognized as the best Intern member that brought great results to the Unosquare's Internship program (client very happy with results)."
+        "Acknowledged as the top-performing intern of the cycle 2017-2018 who achieved significant results within the Unosquare Internship program, earning high satisfaction from the client due to outstanding outcomes."
       ],
       "stack": ["JavaScript", "Node", "React", "Git"]
     }

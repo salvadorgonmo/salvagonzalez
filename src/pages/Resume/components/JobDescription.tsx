@@ -16,6 +16,7 @@ interface JobDescriptionProps {
 export const JobDescription = ({
   companyName,
   isCurrentJob = false,
+  dateRange,
   responsibilities,
   achievements,
   stack,
@@ -38,8 +39,9 @@ export const JobDescription = ({
         </div>
 
         <h4 className="text-lato text-sm">{positionName}</h4>
+        <h5 className="text-lato text-xs"> {dateRange} </h5>
         <div className="text-lato mt-1">
-          <p className="text-xs">Responsibilities:</p>
+          <p className="text-sm font-semibold">Responsibilities:</p>
 
           <ul className="list-disc" style={{ fontSize: "10px" }}>
             {responsibilities.map((responsibility: string) => (
@@ -49,14 +51,7 @@ export const JobDescription = ({
         </div>
         <div className="text-lato mt-2" style={{ fontSize: "10px" }}>
           <div className="flex">
-            <p className="text-xs">Achievements:</p>
-
-            <img
-              alt=""
-              className="ml-1"
-              src={MedalLogo}
-              style={{ height: "25px", width: "20px" }}
-            />
+            <p className="text-sm font-semibold">Achievements:</p>
           </div>
 
           <ul className="list-disc">

@@ -110,9 +110,7 @@ class ResumeComponent extends Component {
           <section className="flex flex-col ">
             <div className="flex">
               <LightBulbIcon className="text-blue-600 w-6 h-6 mr-4 mt-1" />
-              <h2 className="text-lato text-blue-600 text-lg mt-1">
-                Tech Stack
-              </h2>
+              <h2 className="text-lato text-blue-600 text-lg">Tech Stack</h2>
             </div>
             <div>
               <List className="grid grid-cols-5">
@@ -141,7 +139,7 @@ class ResumeComponent extends Component {
             </div>
           </section>
           <div className="w-full separator" />
-          <section className="flex flex-col mt-2">
+          <section className="flex flex-col">
             <div className="flex">
               <BriefcaseIcon className="text-blue-600 w-6 h-6 mr-4 mt-1" />
               <h2 className="text-lato text-blue-600 text-lg mt-1">
@@ -164,7 +162,7 @@ class ResumeComponent extends Component {
               ))}
             </div>
           </section>
-          <div className="w-full mt-2 separator" />
+          <div className="w-full mt-8 separator" />
           <section className="flex flex-col mt-4">
             <div className="flex">
               <AcademicCapIcon className="text-blue-600 w-6 h-6 mr-4 mt-1" />
