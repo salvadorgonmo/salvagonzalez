@@ -26,9 +26,8 @@ export const Card = ({
   };
 
   return (
-    <div className="ml-10 mr-10 card-container">
-      <div className="card">
-        <div className="slide slide-1 bg-white text-bold rounded-xl p-6 card-container flex flex-col items-center justify-center">
+    <div className="hover:cursor-pointer mr-10">
+        <div className="slide slide-1 bg-white text-bold rounded-xl p-6 flex flex-col items-center justify-center">
           <img
             src={imageSrc}
             className={`${imageFullWidth ? "w-full" : "w-40 h-40"} `}
@@ -36,7 +35,7 @@ export const Card = ({
           />
           <h2 className="mt-3 text-xl text-lato">{title}</h2>
         </div>
-        <div className="text-montserrat slide slide-2 bg-white shadow-2xl text-bold rounded-xl p-6 card-container flex flex-col justify-around items-center text-center">
+        <div className="text-montserrat bg-white shadow-2xl text-bold rounded-xl p-6 flex flex-col justify-around items-center text-center">
           <p className="p-4">
             {startDate} - {endDate || "Current"}
           </p>
@@ -48,7 +47,6 @@ export const Card = ({
             />
           )}
         </div>
-      </div>
     </div>
   );
 };

@@ -20,6 +20,7 @@
 
   .img-container {
     .home-profile-picture {
+      object-fit: cover;
       border-radius: 10000px;
       width: 250px;
       height: 250px;

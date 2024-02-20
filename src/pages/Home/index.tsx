@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu } from "../../components/common/Menu";
 import { Card } from "../../components/common/Card";
 import { Paper } from "@mui/material";
-import MyProfilePicture from "../../assets/perfil_chava.jpg";
+import MyProfilePicture from "../../assets/images/profile_pic.jpg";
 import { useStyles } from "./styles";
 import Logo from "../../logo.svg";
 import ReactLogo from "../../assets/logos/react.png";
